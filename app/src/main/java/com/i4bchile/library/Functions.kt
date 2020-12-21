@@ -14,4 +14,5 @@ fun Book.printBook(){
     println("Price: ${formatPrice(price)}")
     println("Pages: ${numPages}")
     println("Book Type: ${bookType}")
+    println("---------------------------------------------")
 }

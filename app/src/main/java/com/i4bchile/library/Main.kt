@@ -19,15 +19,12 @@ fun main(){
     var book4=Book("The Time Machine, or How to Travel to the Future and Back","201220112010",2009,"Another Books",190,8990,"Marty McFly",'D')
 
 
-    book1.printBook()
-    println ("--------------------------")
-    book2.printBook()
-    println ("--------------------------")
-    book3.printBook()
-    println ("--------------------------")
-    book4.printBook()
-    println ("--------------------------")
+    val listOfBooks=listOf(book1,book2,book3,book4)
 
+    for(book:Book in listOfBooks){
+        book.printBook()
+
+    }
 
 
 }
