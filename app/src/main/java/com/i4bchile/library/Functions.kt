@@ -7,12 +7,13 @@ fun formatPrice(pPrice:Int):String{
 
 
 fun Book.printBook(){
-    println("Author: ${author}")
-    println("Title: ${bookTitle}")
-    println("Publisher: ${publisher}")
-    println("Year: ${yearPub}")
+    println("Author: $author")
+    println("Title: $bookTitle")
+    println("Publisher: $publisher")
+    println("Year: $yearPub")
     println("Price: ${formatPrice(price)}")
-    println("Pages: ${numPages}")
-    println("Book Type: ${bookType}")
+    println("Pages: $numPages")
+    println("Book Type: $bookType")
+    println("ISBN: $isbn")
     println("---------------------------------------------")
 }
